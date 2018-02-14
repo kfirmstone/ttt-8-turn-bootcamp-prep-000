@@ -40,7 +40,7 @@ def turn(board)
     move(board, index)
     puts display_board(board)
   else
-  turn(board)
+    turn(board)
   end
  end
 
